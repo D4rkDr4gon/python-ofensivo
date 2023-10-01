@@ -1,3 +1,4 @@
+#analisis de subdominios
 import sys
 import requests  # Para realizar solicitudes HTTP
 from os import path
@@ -15,7 +16,7 @@ args = parser.parse_args()
 
 def main():
     if args.target:
-        if path.exists('subdominios.txt'):
+        if path.exists('subdominios.txt'): #constatamos los dominios de url comparandolos con la de subdominios de nuestro diccionario
             wordlist = open('subdominios.txt', 'r')
             wordlist = wordlist.read().split('\n')
             

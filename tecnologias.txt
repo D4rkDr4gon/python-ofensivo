@@ -1,0 +1,54 @@
+{
+    "https://bancociudad.com.ar/institucional/": [
+        {
+            "app": "jQuery",
+            "ver": "3.6.0",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "reCAPTCHA",
+            "ver": null,
+            "type": "Captchas"
+        },
+        {
+            "app": "Clipboard.js",
+            "ver": null,
+            "type": "Miscellaneous"
+        },
+        {
+            "app": "Bootstrap",
+            "ver": "5",
+            "type": "UI Frameworks"
+        },
+        {
+            "app": "AngularJS",
+            "ver": null,
+            "type": "JavaScript Frameworks"
+        },
+        {
+            "app": "jQuery",
+            "ver": "3.5.0",
+            "type": "JavaScript Libraries"
+        },
+        {
+            "app": "Google Maps",
+            "ver": null,
+            "type": "Maps"
+        },
+        {
+            "app": "Google Font API",
+            "ver": null,
+            "type": "Font Scripts"
+        },
+        {
+            "app": "Google Tag Manager",
+            "ver": null,
+            "type": "Tag Managers"
+        },
+        {
+            "app": "animate.css",
+            "ver": null,
+            "type": "UI Frameworks"
+        }
+    ]
+}
