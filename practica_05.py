@@ -16,9 +16,8 @@ for port in port_range:
         
         # Check if the port is open or closed
         if result == 0:
-            print(f"Port {port} is open")
-        else:
-            print(f"Port {port} is closed")
+            print(f"[+] Port {port} is open")
+        
         
         # Close the socket
         s.close()
