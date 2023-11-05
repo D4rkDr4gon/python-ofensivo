@@ -72,7 +72,7 @@ site_info = load_from_file()
 
 def print_all_passwords():
     for site, info in site_info.items():
-        print(f"Site: {site}, Password: {info.get('password', 'No password stored')}")
+        print(f"Site: {site}, URL: {info.get('url', 'No URL stored')}, Email: {info.get('email', 'No email stored')}, Password: {info.get('password', 'No password stored')}")
 
 def interface():
     while True:
@@ -97,10 +97,12 @@ def interface():
             save_to_file()
         elif choice == '2':
             site_name = input("Enter site name: ")
-            if site_name in site_info and 'password' in site_info[site_name]:
-                print("Password: ", site_info[site_name]['password'])
+            if site_name in site_info:
+                print("URL: ", site_info[site_name].get('url', 'No URL stored'))
+                print("Email: ", site_info[site_name].get('email', 'No email stored'))
+                print("Password: ", site_info[site_name].get('password', 'No password stored'))
             else:
-                print("No password found for this site.")
+                print("No information found for this site.")
         elif choice == '3':
             print_all_passwords()
         elif choice == '4':
